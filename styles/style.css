@@ -1427,7 +1427,7 @@ a {
 */
     }
     .things_img1 {
-        background-image: url("../images/pic1_1.png");
+        background-image: url("https://atomix94.github.io/1stagency.github.io/images/pic1_1.png");
         background-size: cover;
         grid-column: span 2;
         grid-row: span 2;
@@ -1446,7 +1446,7 @@ a {
 
     }
     .things_img3 {
-        background-image: url(../images/pic1_3.png);
+        background-image: url(../images/pic_1_3.png);
         background-size: cover;
 
 
