@@ -1419,6 +1419,7 @@ a {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        height: 100vh;
     }
     .things_img {
         /* display: inline-block;
@@ -1457,12 +1458,15 @@ a {
         grid-row: span 3;
         background-image: url(../images/pic2_1.png);
         background-size: cover;
+        background-position: center;
+
     }
     .things_img5 {
         grid-column: span 1;
         grid-row: span 2;
         background-image: url(../images/pic2_2.png);
         background-size: cover;
+        background-position: center;
     }
 
     .things_img6 {
@@ -1470,6 +1474,7 @@ a {
         grid-row: span 2;
         background-image: url(../images/pic2_3.png);
         background-size: cover;
+        background-position: center;
     }
 
     .client {
