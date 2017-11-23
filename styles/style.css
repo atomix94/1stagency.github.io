@@ -149,6 +149,7 @@ header {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 @media screen and (min-width: 320px) {
