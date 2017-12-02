@@ -1,5 +1,11 @@
-$(document).ready(function () {
+/*var links = [$('#home'),$('#about'),$('#services'),$('#clients'),$('#blog'),$('#contacts')];
+*/
 
+
+
+$(document).ready(function () {
+    
+    
 
     $('.mobile_menu_icon').click(function () {
 
@@ -20,7 +26,106 @@ $(document).ready(function () {
         $('.bar2').toggleClass('bar2-active');
         $('.bar3').toggleClass("bar3-active");
     })
+    
+    
+    
+     
+    
+    $('.menu_element:nth-child(1)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#home').offset().top
+                
+                
+            },700);
+        })
+       
+    $('.menu_element:nth-child(2)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#about').offset().top
+                
+                
+            },700);
+        })
+    
+     $('.menu_element:nth-child(3)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#services').offset().top
+                
+                
+            },700);
+        })
+    
+     $('.menu_element:nth-child(4)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#profiles').offset().top
+                
+                
+            },700);
+        })
+    
+     $('.menu_element:nth-child(5)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#clients').offset().top
+                
+                
+            },700);
+        })
+       
+     $('.menu_element:nth-child(6)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#blog').offset().top
+                
+                
+            },700);
+        })
+       
+     $('.menu_element:nth-child(2)').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#contacts').offset().top
+                
+                
+            },700);
+        })
+    
+   /* var i = 0;
+       
+    
+    $('links[i]').click(function(){
+        
+        console.log(i);
+    
+    for (i>= 0; i <= links.length; i++)
+{
+            $(window).animate({
+            
+            scrollTop:$('links[i]').scrollTop
+            
+            
+        },700)
+        
+        
+        
+    }}) 
+*/
+
+
 });
+    
+
 
 
 
