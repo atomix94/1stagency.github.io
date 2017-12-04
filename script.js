@@ -31,74 +31,76 @@ $(document).ready(function () {
     
      
     
-    $('.menu_element:nth-child(1)').click(function(){
+    $('li:nth-child(1)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#home').offset().top
+               scrollTop:$('#home').offset().top
                 
                 
             },700);
         })
        
-    $('.menu_element:nth-child(2)').click(function(){
+    $('li:nth-child(2)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#about').offset().top
+               scrollTop:$('#about').offset().top
                 
                 
             },700);
         })
     
-     $('.menu_element:nth-child(3)').click(function(){
+     $('li:nth-child(3)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#services').offset().top
+               scrollTop:$('#services').offset().top
                 
                 
             },700);
         })
     
-     $('.menu_element:nth-child(4)').click(function(){
+     $('li:nth-child(4)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#profiles').offset().top
+               scrollTop:$('#profiles').offset().top
                 
                 
             },700);
         })
     
-     $('.menu_element:nth-child(5)').click(function(){
+     $('li:nth-child(5)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#clients').offset().top
+               scrollTop:$('#clients').offset().top
                 
                 
             },700);
         })
        
-     $('.menu_element:nth-child(6)').click(function(){
+     $('li:nth-child(6)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#blog').offset().top
+               scrollTop:$('#blog').offset().top
                 
                 
             },700);
         })
        
-     $('.menu_element:nth-child(2)').click(function(){
+     $('li:nth-child(7)').click(function(){
             
             $('html,body').animate({
                 
-               scrollTop: $('#contacts').offset().top
+               scrollTop:$('#contacts').offset().top
                 
                 
             },700);
+         
+          
         })
     
    /* var i = 0;
