@@ -130,9 +130,7 @@ table {
     border-spacing: 0;
 }
 
-html {
-    overflow-x: hidden;
-}
+
 
 body {
     font-family: "Lato", sans-serif;
@@ -1238,6 +1236,9 @@ a {
         display: flex;
         -ms-flex-pack: distribute;
         justify-content: space-around;
+        -webkit-transition:all linear 0.2s;
+        -webkit-transition:all linear 0.2s;
+        transition:all linear 0.2s;
     }
     .top-section_wrapper {
         display: -webkit-box;
@@ -1250,6 +1251,8 @@ a {
         -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
         margin-top: 100px;
+         -webkit-transition:all linear 0.2s;
+         transition:all linear 0.2s;
     }
     .top-section_image {
         display: -webkit-box;

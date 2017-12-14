@@ -1,11 +1,11 @@
 /*var links = [$('#home'),$('#about'),$('#services'),$('#clients'),$('#blog'),$('#contacts')];
-*/
+ */
 
 
 
 $(document).ready(function () {
-    
-    
+
+
 
     $('.mobile_menu_icon').click(function () {
 
@@ -26,84 +26,87 @@ $(document).ready(function () {
         $('.bar2').toggleClass('bar2-active');
         $('.bar3').toggleClass("bar3-active");
     })
-    
-    
-    
-     
-    
-    $('li:nth-child(1)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#home').offset().top
-                
-                
-            },700);
-        })
-       
-    $('li:nth-child(2)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#about').offset().top
-                
-                
-            },700);
-        })
-    
-     $('li:nth-child(3)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#services').offset().top
-                
-                
-            },700);
-        })
-    
-     $('li:nth-child(4)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#profiles').offset().top
-                
-                
-            },700);
-        })
-    
-     $('li:nth-child(5)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#clients').offset().top
-                
-                
-            },700);
-        })
-       
-     $('li:nth-child(6)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#blog').offset().top
-                
-                
-            },700);
-        })
-       
-     $('li:nth-child(7)').click(function(){
-            
-            $('html,body').animate({
-                
-               scrollTop:$('#contacts').offset().top
-                
-                
-            },700);
-         
-          
-        })
-    
-   /* var i = 0;
+
+
+
+
+
+    $('li:nth-child(1)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#home').offset().top
+
+
+        }, 700);
+    })
+
+    $('li:nth-child(2)').click(function() {
+
+        $('html,body').animate({
+
+            scrollTop: $('#about').offset().top
+
+
+        }, 700);
+    })
+
+    $('li:nth-child(3)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#services').offset().top
+
+
+        }, 700);
+    })
+
+
+
+
+    $('li:nth-child(4)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#profiles').offset().top
+
+
+        }, 700);
+    })
+
+    $('li:nth-child(5)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#clients').offset().top
+
+
+        }, 700);
+    })
+
+    $('li:nth-child(6)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#blog').offset().top
+
+
+        }, 700);
+    })
+
+    $('li:nth-child(7)').click(function () {
+
+        $('html,body').animate({
+
+            scrollTop: $('#contacts').offset().top
+
+
+        }, 700);
+
+
+    })
+
+    /* var i = 0;
        
     
     $('links[i]').click(function(){
@@ -126,16 +129,41 @@ $(document).ready(function () {
 
 
 });
+
+
+$(window).scroll(function()
+                {
     
+    if ($(document).scrollTop() > 0)
+        
+        
+        
+    
+    
+    
+    {
+        
+        $('.top-section').css('position','fixed');
+        $('.top-section').css('width','100%');
+        $('.top-section').css('background-color','#00407F');
+        $('.top-section_wrapper').css('margin-top','0');
+        
+        
+    }
 
 
 
 
 
-
-
-
-
+                 else
+                 
+                 {
+                
+                     $('.top-section').css('position','static');
+                      $('.top-section').css('background','none');
+                 
+                 }
+});
 
 /*
 const menuIcon = document.querySelector('.icon');
